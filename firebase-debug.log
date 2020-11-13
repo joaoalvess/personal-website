@@ -1,0 +1,54 @@
+[debug] [2020-11-13T07:10:45.713Z] ----------------------------------------------------------------------
+[debug] [2020-11-13T07:10:45.715Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-11-13T07:10:45.715Z] CLI Version:   8.7.0
+[debug] [2020-11-13T07:10:45.715Z] Platform:      darwin
+[debug] [2020-11-13T07:10:45.715Z] Node Version:  v12.16.3
+[debug] [2020-11-13T07:10:45.716Z] Time:          Fri Nov 13 2020 04:10:45 GMT-0300 (GMT-03:00)
+[debug] [2020-11-13T07:10:45.716Z] ----------------------------------------------------------------------
+[debug] [2020-11-13T07:10:45.716Z] 
+[debug] [2020-11-13T07:10:45.722Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-13T07:10:45.723Z] > authorizing via signed-in user
+[debug] [2020-11-13T07:10:45.723Z] [iam] checking project teamokitket for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-11-13T07:10:45.725Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/teamokitket:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-11-13T07:10:46.733Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 13 Nov 2020 07:10:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=789","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-13T07:10:46.734Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/teamokitket  
+ 
+[debug] [2020-11-13T07:10:47.844Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 13 Nov 2020 07:10:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'teamokitket'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-11-13T07:10:47.847Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/teamokitket/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-11-13T07:10:49.315Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 13 Nov 2020 07:10:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[teamokitket]: beginning deploy... 
+[info] i  hosting[teamokitket]: found 24 files in build 
+[debug] [2020-11-13T07:10:49.323Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2020-11-13T07:10:49.400Z] [hosting] hash cache [YnVpbGQ] stored for 24 files
+[debug] [2020-11-13T07:10:49.400Z] [hosting][hash queue][FINAL] {"max":71,"min":10,"avg":16.541666666666668,"active":0,"complete":24,"success":24,"errored":0,"retried":0,"total":24,"elapsed":76}
+[debug] [2020-11-13T07:10:49.400Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/teamokitket/versions/b01b79e15f8eb4e0:populateFiles  
+ <request body omitted>
+[debug] [2020-11-13T07:11:08.502Z] ----------------------------------------------------------------------
+[debug] [2020-11-13T07:11:08.503Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-11-13T07:11:08.504Z] CLI Version:   8.7.0
+[debug] [2020-11-13T07:11:08.504Z] Platform:      darwin
+[debug] [2020-11-13T07:11:08.504Z] Node Version:  v12.16.3
+[debug] [2020-11-13T07:11:08.505Z] Time:          Fri Nov 13 2020 04:11:08 GMT-0300 (GMT-03:00)
+[debug] [2020-11-13T07:11:08.505Z] ----------------------------------------------------------------------
+[debug] [2020-11-13T07:11:08.505Z] 
+[debug] [2020-11-13T07:11:08.511Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-13T07:11:08.512Z] > authorizing via signed-in user
+[debug] [2020-11-13T07:11:08.512Z] [iam] checking project teamokitket for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-11-13T07:11:08.514Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/teamokitket:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-11-13T07:11:09.542Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 13 Nov 2020 07:11:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=803","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-13T07:11:09.543Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/teamokitket  
+ 
+[debug] [2020-11-13T07:11:10.656Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 13 Nov 2020 07:11:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'teamokitket'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-11-13T07:11:10.658Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/teamokitket/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
