@@ -181,8 +181,11 @@ section.descrição p >span{
         border-radius: 50%;
     }
     .hino {
-        font-size: 28px;
+        font-size: 25px;
         margin-bottom: 0px;
+    }
+    .divmaluca {
+        margin-top: 20px;
     }
 }
 
@@ -219,7 +222,7 @@ section.descrição p >span{
         border-radius: 50%;
     }
     .hino {
-        font-size: 28px;
+        font-size: 25px;
         margin-bottom: 0px;
     }
 
@@ -233,6 +236,9 @@ section.descrição p >span{
     }
     .gmail {
         width: 55px !important;
+    }
+    .divmaluca {
+        margin-top: 20px;
     }
 }
 

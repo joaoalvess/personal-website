@@ -19,12 +19,12 @@ function App() {
                     <div className="img">
                         <a target="_blanck" href="https://www.facebook.com/Anderson-do-z%C3%A9-Baixinho-110578647473384" ><img className="image-icon" src={face} alt="facebook icon" /></a>
                         <a target="_blanck" href="https://www.instagram.com/andersondozebaixinho11/" ><img  src={insta} alt="insta icon" /></a>
-                        <a target="_blanck" href="mailto:contato@andersonferreiraalves.com.br"><img className="gmail" src={gmail} alt="facebook icon" /></a>
+                        <a target="_blanck" href="mailto:contato@andersonalvesferreira.com.br"><img className="gmail" src={gmail} alt="facebook icon" /></a>
                     </div>
                 </div>
             </div>
             <div className="content">
-                <section className="descrição">\
+                <section className="descrição">
                     <div className="divmaluca" >
                         <img className="fotologo" src={foto1} />
                     </div>
